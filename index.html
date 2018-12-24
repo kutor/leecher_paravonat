@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>LEECHER: PARAVONAT</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="jq.js"></script>
+	<script>window.$ = window.jQuery = require('./jq.js');</script>
+
+</head>
+
+<body>
+
+	<div id="data_field">
+		<div class="span_data" id="display_player_name">NAME</div>
+		<div class="span_data" id="display_train_count">PARAVONATOK: 0 </div>
+		<div class="span_data" id="display_player_level">SZINT: 1</div>
+		<div class="span_data" id="display_bonuses">POZITÍV HULLÁMOK: 0</div>
+		<div class="span_data" id="sound_control">HANG KI</div>
+		<div class="span_data" id="new_game">ÚJ JÁTÉK</div>
+	</div>
+
+	<div id="play_area">
+		<div id="init_screen">
+			<div id="init_text">
+				<h1>Bevezető</h1>
+				<p>A Leecher Zenekar újabb nagyszabású projektbe kezdett. Mindenki lelkesen ötletel, ez lesz a zenekar legnagyobb dobássa!<br>
+				Ám érzékeny zenészfüledet váratlanul keserű károgás csapja meg...<br>
+				<em>"Hahahaha.... azt hiszitek, hogy sikerülni fog a szánalmas tervetek? Száz paravonatot fogok ellenetek küldeni!"</em><br>
+				Émelyegni kezdesz, a tested görcsbe rándul... igen, az ismerős érzés csak egyetlen dolgot jelenthet: NEGATÍV HULLÁMOK!</p>
+				<p>Bizony, rád hárult a feladat, hogy megmentsd szeretett zenekarodat és sokévi munkádat <strong>Mr. Negatív </strong> újabb alattomos támadásaitól!<br>
+				És ha ez nem lenne elég, a hátad mögé is figyelned kell, hisz a zenekar stabilitását veszélyeztető Váratlan Események a normál üzemmenet részei... <br>
+				Küldetésed során azonban segítenek a Pozitív Hullámok, amelyek kivédenek egy paravonatot.</p><br>
+				<p>Készülj a küzdelemre! A zenekar reménye és Ratyi Kapitány minden bizodalma Benned van...</p>
+				<div id="select_players"></div>
+			</div>
+		</div>
+		<div id="player">
+			<img id="img_player">
+		</div>
+	</div>
+
+</body>
+
+<script src="js.js"></script>
+
+</html>
