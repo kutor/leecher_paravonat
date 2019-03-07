@@ -8,7 +8,7 @@ body{
 }
 
 #data_field{
-    height:100px;
+    height:80px;
     background-color:#333333;
     text-align: center;
     z-index: 1;
@@ -21,9 +21,9 @@ body{
 }
 
 .span_data{
-    margin: 25px 30px;
+    margin: 20px 30px;
     padding: 7px;
-    font-size: 30px;
+    font-size: 1.5rem;
     background-color: #555555;
     display:inline;
     justify-content:space-around;
@@ -37,7 +37,7 @@ body{
 #play_area{
     position: absolute;
     background-color: #222222;
-    top: 110px;
+    top: 90px;
     bottom: 0;
     width: 100%; 
 }
@@ -112,7 +112,7 @@ body{
 .train{
     position: absolute;
     width: 18%;
-    margin:5px;
+    margin:2.5px;
     border:3px solid black;
     padding-right: 10px;
 }
@@ -127,7 +127,7 @@ body{
     -moz-transition: none !important;
     -o-transition: none !important;
     transition: none !important;
-  }
+}
 
 #game_over{
     width: 100%;
@@ -160,8 +160,8 @@ body{
 }
 
 #select_players{
-    bottom:0px;
-    height:80%;
+    bottom: 0px;
+    height: 90%;
     width: 100%;
     display:flex;
 }
@@ -182,11 +182,16 @@ body{
     width: 80%;
     padding:1%;
 }
-
+h1{
+    margin-top:0%;
+}
+h4 {
+    font-size:1rem;
+}
 h5{
     margin:0px;
     padding: 0px;
-    font-size:14px;
+    font-size:0.8em;
     font-weight:normal;
     display:inline;
 }

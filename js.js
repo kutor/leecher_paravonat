@@ -8,7 +8,7 @@
 
 let playerName = "";
 
-let trainTexts = ["Lecsuknak minket, mert a Barci Hollandiából megpróbált hazacsempészni 10 kiló füvet a csellótokjában", "Elfogy a pénz", "Az NKA rájön, hogy a Márton a turné felét kamuzta", "Az Andi hatalomra kerül a magyar metalzenei életben és ellehetetlenít minket", "A Márton eladja a kisbuszt", "Valaki összejön, majd szétmegy valakivel", "Valaki telebeszéli az Anett fejét, hogy szar a zenekar, és kilép", "Lemondják a koncertet és kukába megy a turnépénz", "Árokba fordulunk a kisbusszal", "Világhíres lesz a Sniffyction és a Mártonnak nem marad ideje ránk", "Vissza kell fizetni a turnépénzt az NKA-nak", "Megint meg kell csinálni egy kampányt két nap alatt, egy turné közben, és ettől a Kutor kilép", "Az Anett kilép, mert elhívja egy sokkal jobb zenekar", "Az Ági kilép", "...Románia", "A Márton rászervez még egy kampányt és két román turnét a projektre", "A Kutornak munkahelye lesz", "A Márton lelép, mert elhívja egy nagyobb zenekar dolgozni", "Soha nem találunk csellóst", "Senkit sem érdekel a kampány", "A Kristófnak nem elég tigris a második lemez", "A Barbi fesztálódik a Prétorba és kilép", "Eljön a koncertre a Sony Music vezetősége, de bénán játszunk", "Kiesik a kisbusz kereke a Fontos Koncert előtt", "A Koni tönkretesz minket a jogdíjas hadjáratával", "Valakit kirúgnak a munkahelyéről és nem lesz pénze zenekarozni", "A Barci kiesik az ablakon", "Hívnak minket a Wackenre, de valakinek dolgoznia kell", "Nem lesznek megírva a dalok a felvétel idejére", "A Töfi véletlenül letörli a lemezt", "A Nahi nem jön el a saját koncertjére", "A Matyit felhívják, hogy be kell ugrania koncert helyett a Nemoba főzni"];
+let trainTexts = ["A Tales átrakja a kezdést és nem ér rá a hegedűs", "Lecsuknak minket, mert a Barci füvet próbál Hollandiából hazacsempészni a tokjában", "Elfogy a pénz", "Az NKA rájön, hogy a Márton a turné felét kamuzta", "Az Andi hatalomra kerül a magyar metalzenei életben és ellehetetlenít minket", "A Márton eladja a kisbuszt", "Valaki összejön, majd szétmegy valakivel", "Valaki telebeszéli az Anett fejét, hogy szar a zenekar, és kilép", "Lemondják a koncertet és kukába megy a turnépénz", "Árokba fordulunk a kisbusszal", "Világhíres lesz a Sniffyction és a Mártonnak nem marad ideje ránk", "A Márton kitalálja, hogy csak pénzért vezet ezentúl", "Vissza kell fizetni a turnépénzt az NKA-nak", "Megint kampányt kell csinálni turné közben, és ettől a Kutor kilép", "Az Anett kilép, mert elhívja egy sokkal jobb zenekar", "Az Ági kilép", "...Románia", "A Márton rászervez még egy kampányt és két román turnét a projektre", "A Kutornak munkahelye lesz", "A Márton lelép, mert elhívja egy nagyobb zenekar dolgozni", "Soha nem találunk csellóst", "Senkit sem érdekel a kampány", "A Kristófnak nem elég tigris a második lemez", "A Barbi fesztálódik a Prétorba és kilép", "Eljön a koncertre a Sony Music vezetősége, de bénán játszunk", "Kiesik a kisbusz kereke a Fontos Koncert előtt", "A Koni tönkretesz minket a jogdíjas hadjáratával", "Valakit kirúgnak és nem lesz pénze zenekarozni", "A Barci kiesik az ablakon", "Hívnak minket a Wackenre, de valakinek dolgoznia kell", "Nem lesznek megírva a dalok a felvétel idejére", "A Töfi véletlenül letörli a lemezt", "A Nahi nem jön el a saját koncertjére", "A Matyinak be kell ugrania koncert helyett a Nemoba főzni"];
 let trainTextsCurrentCharacter = [];
 
 let trainCount = 0;
@@ -48,21 +48,21 @@ const playerCharacters = [{
     name: "Anett",
     image: "img/img_char_anett.png",
     charText: "A zenekar csalogánya",
-    charArray: ["NÉMETORSZÁGBA KELL UTAZNOD TOVÁBBKÉPZÉSRE", "EGY HÉT TÚLÓRÁZÓS LEADÁS A TURNÉ ELŐTT", "ELTÖRIK A VÁLLFA ÉS A SÁRBA ESIK A KONCERTRUHÁD", "A KONCERTRE INDULÁS ELŐTT FELHÍV A FŐNÖKÖD ÉS HÁROM ÓRÁN ÁT POFÁZIK", "ÉNEKELSZ KÉT HAMIS HANGOT A KONCERTEN"],
+    charArray: ["NÉMETORSZÁGBA KELL UTAZNOD TOVÁBBKÉPZÉSRE", "EGY HÉT TÚLÓRÁZÓS LEADÁS A TURNÉ ELŐTT", "ELTÖRIK A VÁLLFA ÉS A SÁRBA ESIK A KONCERTRUHÁD", "A KONCERTRE INDULÁS ELŐTT FELHÍV A NÉMET ÉS HÁROM ÓRÁN ÁT POFÁZIK", "ÉNEKELSZ KÉT HAMIS HANGOT A KONCERTEN"],//["Bénán énekelsz", "A Márton olyat szól be, hogy megsértődsz és kilépsz", "Valaki valami sértőt mond", "Megtudod, hogy az urad még mindig az Ágis, khm, KÉPEIT nézegeti titokban", "Szétszakad a ruhás vállfás csomag és az összes fellépőcuccod a sárba esik", "A 10 napos turnén otthon felejtetted a telefonodat és már nem mehetünk érte vissza"],
   },
   {
     id: 1,
     name: "Ági",
     image: "img/img_char_agi.png",
     charText: "A szexi csellós lány",
-    charArray: ["A PRÉTOR ÖRÖKRE LELÉP HAVAJRA", "MINDENKI GYEREKES IDIÓTA", "BRÜSSZELBE KELL UTAZNOD A TURNÉ HELYETT", "ELRONTOD AZ INTRÓT ÉS KÖRÖHÖG A KÖZÖNSÉG"],
+    charArray: ["A PRÉTOR ÖRÖKRE LELÉP HAVAJRA", "MINDENKI GYEREKES IDIÓTA", "BRÜSSZELBE KELL UTAZNOD A TURNÉ HELYETT", "ELRONTOD AZ INTRÓT ÉS KÖRÖHÖG A KÖZÖNSÉG"],//["Éjjel arra ébredsz, hogy a Márton körbehint rózsaszirmokkal és a nevedet suttogja", "Egy kritika szerint a tehetségtelen csellózásod teszi tönkre a zenekart", "Az Anett hátba szúr és lenyúlja a pasidat", "A Márton házassági ajánlatot tesz neked Párizsban", "Megtudod, hogy a Márton összefaszozta a csellódat"],
   },
   {
     id: 2,
     name: "Barci",
     image: "img/img_char_barci.png",
     charText: "A rezidens metálisten",
-    charArray: ["A CSAJOD MEGTILTJA, HOGY CSAJOZZ A TURNÉN", "A SZÜLEID ELTILTANAK A SZTÁRKODÁSTÓL, HOGY TANULJÁL VÉGRE", "AZ ORVOSOK MEGTILTJÁK, HOGY ALKOHOLT FOGYASSZ", "KIESEL AZ ABLAKON", "ALKOHOLMÉRGEZÉST KAPSZ A FESZTIVÁL ELŐTT"],
+    charArray: ["A CSAJOD MEGTILTJA, HOGY CSAJOZZ A TURNÉN", "A SZÜLEID ELTILTANAK A SZTÁRKODÁSTÓL, HOGY TANULJÁL VÉGRE", "AZ ORVOSOK MEGTILTJÁK, HOGY ALKOHOLT FOGYASSZ", "KIESEL AZ ABLAKON"],// ["A csajod megtiltja, hogy a turnén más nőkhöz érj", "Kiharcolod, hogy egy random román csajhoz mehess dugni éjszakára, de leütnek és kivágják a veséd", "Az orvos eltilt mindennemű alkoholtól", "Részegen megölöd magad", "A szüleid eltiltanak a sztárkodástól, hogy tanulj végre"],
 
   },
   {
@@ -70,21 +70,21 @@ const playerCharacters = [{
     name: "Dáve",
     image: "img/img_char_dave.png",
     charText: "A tomboló dob-romboló",
-    charArray: ["AZ ANETT ÉS A KUTOR ÖSSZEHÁZASODNAK ÉS FOLYAMATOSAN NYÁLADZANAK", "AZ ELŐZENEKAR KISZÚRJA A DOBBŐRT", "CSAK VIDÉKEN TALÁLSZ PRÓBATERMET", "ROSSZUL PAKOLTAK BE A TÖBBIEK, ÚGYHOGY ÚJRA KELL TOKOZNI A DOBOT ÉJJEL KETTŐKOR"],
+    charArray: ["AZ ANETT ÉS A KUTOR ÖSSZEHÁZASODNAK ÉS FOLYAMATOSAN NYÁLADZANAK", "AZ ELŐZENEKAR KISZÚRJA A DOBBŐRT", "CSAK VIDÉKEN TALÁLSZ PRÓBATERMET", "ROSSZUL PAKOLTAK BE A TÖBBIEK, ÚGYHOGY ÚJRA KELL TOKOZNI A KOMPLETT DOBOT ÉJJEL KETTŐKOR"],//["Ránézel az Anett és a Kutor nyálas kedveskedésére és eszedbe jut, hogy téged komolyan sem szeretett senki soha annyira, mint ezek egymást viccből", "Arra érsz haza, hogy a Matyi a Nikolt kúrja a főzőlapon", "A Márton kitalálja, hogy legyen három lábdob és hat pergő, mert nyugaton ez az elvárás", "Csak Vácon találsz próbatermet", "Az Anett és a Kutor nyáladzása már elviselhetetlen méreteket ölt"],
   },
   {
     id: 4,
     name: "Prétor",
     image: "img/img_char_pretor.png",
     charText: "Az egofil komponista",
-    charArray: ["ÖREGSZEL", "A BARCI SZEXIBB NÁLAD", "MÁR NEM ÉRDEKLED AZ ÁGIT"],
+    charArray: ["ÖREGSZEL", "A BARCI SZEXIBB NÁLAD", "MÁR NEM ÉRDEKLED AZ ÁGIT"],//["Valaki nem ért veled egyet", "Helyetted a Barcira izgul rá az összes lány, mert már öreg vagy", "Már nem érdekled az Ágit", "Valaki megemlíti a Konit", "Valaki megemlíti a Nikolt", "Valaki megemlíti a Barbit", "A japán éppen ráér, ezért hazamész a turné közepén", "Beleragadsz a japán púzójába és nem tudsz elindulni otthonról"],
   },
   {
     id: 5,
     name: "Márton",
     image: "img/img_char_marton.png",
     charText: "Ratyi Kapitány",
-    charArray: ["HASMENÉS", "KRETÉN SZERVEZŐK", "EBBEN AZ ORSZÁGBAN BE VAN TILTVA A KÁVÉ", "NEM PROMÓZTÁK MEG A KONCERTET", "MINDENKI FELELŐTLEN, GYEREKES IDIÓTAKÉNT VISELKEDIK", "DUGÓK", "MEGINT SZARUL SZERELTÉK MEG A BUSZT"],
+    charArray: ["HASMENÉS", "KRETÉN SZERVEZŐK", "NEM PROMÓZTÁK MEG A KONCERTET", "MINDENKI FELELŐTLEN, GYEREKES IDIÓTAKÉNT VISELKEDIK", "DUGÓK", "MEGINT SZARUL SZERELTÉK MEG A BUSZT"],//["A hasmenésedtől már vezetni sem bírsz", "Az Ági bizalmas beszélgetésre hív, és már látod a szemében a JELEKET, de... befosol", "Egy újabb olyan ember megdugja az Ágit, aki nem te vagy", "Megtudod, hogy az Ági valójában nem szeret és tényleg nincsen nála esélyed", "Mindenki kretén a zenekarban és nem értik, amit mondasz", "Az Ági a szemed előtt összejön valakivel a turnén", "Lerobban a kisbusz", "Az Ági bejelenti, hogy kilép"],
   },
 ];
 
@@ -146,7 +146,7 @@ const newGame = () => {
   // CREATE railways, will have railway texture
 
   const gameAreaHeight = playArea.clientHeight;
-  const divider = 10;
+  const divider = 9;
   const railwayHeight = Math.floor(gameAreaHeight / divider - 10);
   const trainsDistance = railwayHeight + 10;
   const railwayCount = Math.floor(gameAreaHeight / railwayHeight) - 1;
